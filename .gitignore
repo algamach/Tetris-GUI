@@ -1,0 +1,13 @@
+
+TetrisGUI/.vs/TetrisGUI/v17/.suo
+*.vsidx
+*.lock
+*.json
+*.targets
+*.props
+*.cache
+*.editorconfig
+TetrisGUI/TetrisGUI/obj/Debug/net6.0/TetrisGUI.GlobalUsings.g.cs
+TetrisGUI/TetrisGUI/obj/Debug/net6.0/TetrisGUI.AssemblyInfo.cs
+TetrisGUI/TetrisGUI/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+TetrisGUI/TetrisGUI/TetrisGUI.csproj
