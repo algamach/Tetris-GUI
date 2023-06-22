@@ -1,0 +1,15 @@
+C:\Users\f-gal\OneDrive\Документы\GitHub\Tetris-GUI\TetrisGUI\TetrisGUI\bin\Debug\net6.0\TetrisGUI.exe
+C:\Users\f-gal\OneDrive\Документы\GitHub\Tetris-GUI\TetrisGUI\TetrisGUI\bin\Debug\net6.0\TetrisGUI.deps.json
+C:\Users\f-gal\OneDrive\Документы\GitHub\Tetris-GUI\TetrisGUI\TetrisGUI\bin\Debug\net6.0\TetrisGUI.runtimeconfig.json
+C:\Users\f-gal\OneDrive\Документы\GitHub\Tetris-GUI\TetrisGUI\TetrisGUI\bin\Debug\net6.0\TetrisGUI.dll
+C:\Users\f-gal\OneDrive\Документы\GitHub\Tetris-GUI\TetrisGUI\TetrisGUI\bin\Debug\net6.0\TetrisGUI.pdb
+C:\Users\f-gal\OneDrive\Документы\GitHub\Tetris-GUI\TetrisGUI\TetrisGUI\obj\Debug\net6.0\TetrisGUI.csproj.AssemblyReference.cache
+C:\Users\f-gal\OneDrive\Документы\GitHub\Tetris-GUI\TetrisGUI\TetrisGUI\obj\Debug\net6.0\TetrisGUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\f-gal\OneDrive\Документы\GitHub\Tetris-GUI\TetrisGUI\TetrisGUI\obj\Debug\net6.0\TetrisGUI.AssemblyInfoInputs.cache
+C:\Users\f-gal\OneDrive\Документы\GitHub\Tetris-GUI\TetrisGUI\TetrisGUI\obj\Debug\net6.0\TetrisGUI.AssemblyInfo.cs
+C:\Users\f-gal\OneDrive\Документы\GitHub\Tetris-GUI\TetrisGUI\TetrisGUI\obj\Debug\net6.0\TetrisGUI.csproj.CoreCompileInputs.cache
+C:\Users\f-gal\OneDrive\Документы\GitHub\Tetris-GUI\TetrisGUI\TetrisGUI\obj\Debug\net6.0\TetrisGUI.dll
+C:\Users\f-gal\OneDrive\Документы\GitHub\Tetris-GUI\TetrisGUI\TetrisGUI\obj\Debug\net6.0\refint\TetrisGUI.dll
+C:\Users\f-gal\OneDrive\Документы\GitHub\Tetris-GUI\TetrisGUI\TetrisGUI\obj\Debug\net6.0\TetrisGUI.pdb
+C:\Users\f-gal\OneDrive\Документы\GitHub\Tetris-GUI\TetrisGUI\TetrisGUI\obj\Debug\net6.0\TetrisGUI.genruntimeconfig.cache
+C:\Users\f-gal\OneDrive\Документы\GitHub\Tetris-GUI\TetrisGUI\TetrisGUI\obj\Debug\net6.0\ref\TetrisGUI.dll
