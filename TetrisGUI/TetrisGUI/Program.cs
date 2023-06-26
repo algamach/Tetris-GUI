@@ -1,4 +1,5 @@
 ﻿using System.Timers;
+using TetrisGUI;
 
 namespace Tetris
 {
@@ -13,10 +14,9 @@ namespace Tetris
 
         static void Main(string[] args)
         {
-            Console.SetWindowSize(Field.Width, Field.Height);
-            Console.SetBufferSize(Field.Width, Field.Height);
+            DrawerProvider.Drawer.InitField();
 
-            generator = new FigureGenerator(Field.Width / 2, 0, Drawer.DEFAUTL_SYMBOL);
+            generator = new FigureGenerator(Field.Width / 2, 0);
             currentFigure = generator.GetNewFigure();
             SetTimer();
 
@@ -42,7 +42,7 @@ namespace Tetris
 
                 if (currentFigure.IsOnTop())
                 {
-                    WriteGameOver();
+                    DrawerProvider.Drawer.WriteGameOver();
                     timer.Elapsed -= OnTimedEvent;
                     return true;
                 }
@@ -58,11 +58,6 @@ namespace Tetris
             }
         }
 
-        private static void WriteGameOver()
-        {
-            Console.SetCursorPosition(Field.Width / 2 - 8, Field.Height / 2);
-            Console.WriteLine("G A M E  O V E R");
-        }
 
         private static Result HandleKey(Figure f, ConsoleKey key)
         {
@@ -73,7 +68,7 @@ namespace Tetris
                 case ConsoleKey.RightArrow:
                     return f.TryMove(Direction.RIGHT);
                 case ConsoleKey.DownArrow:
-                    return f.TryMove(Direction.DOWN);                
+                    return f.TryMove(Direction.DOWN);
                 case ConsoleKey.Spacebar:
                     return f.TryRotate();
             }

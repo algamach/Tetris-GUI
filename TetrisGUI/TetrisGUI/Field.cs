@@ -1,4 +1,6 @@
-﻿namespace Tetris
+﻿using TetrisGUI;
+
+namespace Tetris
 {
     static class Field
     {
@@ -10,24 +12,12 @@
             {
                 return _width;
             }
-            set
-            {
-                _width = value;
-                Console.SetWindowSize(_width, _height);
-                Console.SetBufferSize(_width, _height);
-            }
         }
         public static int Height
         {
             get
             {
                 return _height;
-            }
-            set
-            {
-                _height = value;
-                Console.SetWindowSize(_width, _height);
-                Console.SetBufferSize(_width, _height);
             }
         }
 
@@ -79,9 +69,9 @@
                 for (int i = 0; i < Width; i++)
                 {
                     if (_heap[j][i])
-                        Drawer.DrawPoint(i, j);
+                        DrawerProvider.Drawer.DrawPoint(i, j);
                     else
-                        Drawer.HidePoint(i, j);
+                        DrawerProvider.Drawer.HidePoint(i, j);
                 }
             }
         }
