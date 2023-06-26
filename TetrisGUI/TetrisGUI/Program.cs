@@ -73,10 +73,7 @@ namespace Tetris
                 case ConsoleKey.RightArrow:
                     return f.TryMove(Direction.RIGHT);
                 case ConsoleKey.DownArrow:
-                    return f.TryMove(Direction.DOWN);
-                //UP will need to be removed
-                case ConsoleKey.UpArrow:
-                    return f.TryMove(Direction.UP);
+                    return f.TryMove(Direction.DOWN);                
                 case ConsoleKey.Spacebar:
                     return f.TryRotate();
             }
