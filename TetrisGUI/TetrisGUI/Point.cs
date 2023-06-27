@@ -1,4 +1,7 @@
-﻿namespace Tetris{
+﻿using TetrisGUI;
+
+namespace Tetris
+{
     class Point
     {
         public int X { get; set; }
@@ -9,14 +12,11 @@
 
         public void Draw()
         {
-            Console.SetCursorPosition(X, Y);
-            Console.WriteLine(C);
-            Console.SetCursorPosition(0, 0);
+            DrawerProvider.Drawer.DrawPoint(X, Y);
         }
         internal void Hide()
         {
-            Console.SetCursorPosition(X, Y);
-            Console.WriteLine(" ");
+            DrawerProvider.Drawer.HidePoint(X, Y);
         }
         internal void Move(Direction dir)
         {
@@ -49,4 +49,5 @@
             C = sym;
         }
 
-    }}
+    }
+}
