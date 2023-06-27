@@ -1,5 +1,6 @@
 ﻿using System.Timers;
 using TetrisGUI;
+using Microsoft.SmallBasic.Library;
 
 namespace Tetris
 {
@@ -14,23 +15,12 @@ namespace Tetris
 
         static void Main(string[] args)
         {
-            DrawerProvider.Drawer.InitField();
+            GraphicsWindow.Width = 100;
+            GraphicsWindow.Height = 100;
 
-            generator = new FigureGenerator(Field.Width / 2, 0);
-            currentFigure = generator.GetNewFigure();
-            SetTimer();
+            GraphicsWindow.BackgroundColor = "LightBlue";
 
-            while (true)
-            {
-                if (Console.KeyAvailable)
-                {
-                    var key = Console.ReadKey();
-                    Monitor.Enter(_lockObject);
-                    var result = HandleKey(currentFigure, key.Key);
-                    ProcessResult(result, ref currentFigure);
-                    Monitor.Exit(_lockObject);
-                }
-            }
+            GraphicsWindow.DrawRectangle(20, 20, 10, 10);
         }
 
         private static bool ProcessResult(Result result, ref Figure currentFigure)

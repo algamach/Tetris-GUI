@@ -15,3 +15,8 @@ TetrisGUI/TetrisGUI/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes
 *.dll
 *.exe
 *.pdb
+*.xml
+*.txt
+*.txt
+*.txt
+TetrisGUI/TetrisGUI/obj/Debug/net6.0/TetrisGUI.csproj.FileListAbsolute.txt

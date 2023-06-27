@@ -13,3 +13,6 @@ C:\Users\f-gal\OneDrive\Документы\GitHub\Tetris-GUI\TetrisGUI\TetrisGUI
 C:\Users\f-gal\OneDrive\Документы\GitHub\Tetris-GUI\TetrisGUI\TetrisGUI\obj\Debug\net6.0\TetrisGUI.pdb
 C:\Users\f-gal\OneDrive\Документы\GitHub\Tetris-GUI\TetrisGUI\TetrisGUI\obj\Debug\net6.0\TetrisGUI.genruntimeconfig.cache
 C:\Users\f-gal\OneDrive\Документы\GitHub\Tetris-GUI\TetrisGUI\TetrisGUI\obj\Debug\net6.0\ref\TetrisGUI.dll
+C:\Users\f-gal\OneDrive\Документы\GitHub\Tetris-GUI\TetrisGUI\TetrisGUI\bin\Debug\net6.0\SmallBasicLibrary.dll
+C:\Users\f-gal\OneDrive\Документы\GitHub\Tetris-GUI\TetrisGUI\TetrisGUI\bin\Debug\net6.0\SmallBasicLibrary.xml
+C:\Users\f-gal\OneDrive\Документы\GitHub\Tetris-GUI\TetrisGUI\TetrisGUI\obj\Debug\net6.0\TetrisGUI.csproj.CopyComplete
